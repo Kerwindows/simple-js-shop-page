@@ -11,14 +11,18 @@ require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://gitlab.com/kerjemtec/divi-mobile-css-layouts',
 	__FILE__, //Full path to the main plugin file or functions.php.
-	'divi-mobile-css-layouts'
+	'divi-css-mobile-layouts'
 );
 
 //Optional: If you're using a private repository, specify the access token like this:
-$myUpdateChecker->setAuthentication('cwc87fh9017zvsbyfsxc1u0td');
+$myUpdateChecker->setAuthentication('tZw22vFXLyPKfEvXtZaZ');
 
 //Optional: Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('master');
+
+//Optional: Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('master');
+// it inserts the entry in the admin menu
 // it inserts the entry in the admin menu
 add_action('admin_menu', 'css_columns_create_menu_entry');
 
@@ -50,3 +54,11 @@ function wpse_load_plugin_css() {
     wp_enqueue_style( 'style', $plugin_url . 'css/style.css' );
 }
 add_action( 'wp_enqueue_scripts', 'wpse_load_plugin_css' );
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> bba3202a47c6ae760f2e56eb0b690201381524e9

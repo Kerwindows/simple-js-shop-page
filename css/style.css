@@ -1,4 +1,4 @@
-/*Change special module stacking on tiles on Web Design Page*/
+/*Change special module stacking on tiles on your Web Design Page*/
 @media only screen and (max-width: 980px){
 	.mobile-1_2-1_2-column .et_pb_row > .et_pb_column {
 		width:50% !important;
