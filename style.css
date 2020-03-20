@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+
+#pluginwrap_k{
+background:#ffffff;
+margin-right:10px;
+margin-top:10px;
+margin-top:20px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column_k {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+
+}
+
+/* Create two equal columns that floats next to each other */
+.column_k_2_col{
+float: left;
+  width: 50%;
+  padding: 10px;
+ 
+}
+
+/* Create 1/3rd and 2/3rd columns that floats next to each other */
+.column_k_33_col{
+float: left;
+  width: 33.33%;
+  padding: 10px;
+ 
+}
+.column_k_66_col{
+float: left;
+  width: 66.66%;
+  padding: 10px;
+ 
+}
+
+/* Clear floats after the columns */
+.row_k:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column_k {
+    width: 100%;
+  }
+}px) {
+  .divi_mobile-css-column {
+    width: 100%;
+  }
+}
