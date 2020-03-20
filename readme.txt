@@ -1,5 +1,4 @@
 === Divi CSS Mobile Columns ===
-Contributors: (this should be a list of wordpress.org userid's)
 Donate link: https://kerjemtec.com/
 Tags: comments, spam
 Requires at least: 4.6
