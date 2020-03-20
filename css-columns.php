@@ -11,7 +11,7 @@ require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://gitlab.com/kerjemtec/divi-mobile-css-layouts',
 	__FILE__, //Full path to the main plugin file or functions.php.
-	'divi-css-mobile-layouts'
+	'divi-mobile-css-layouts'
 );
 
 //Optional: If you're using a private repository, specify the access token like this:
@@ -54,11 +54,3 @@ function wpse_load_plugin_css() {
     wp_enqueue_style( 'style', $plugin_url . 'css/style.css' );
 }
 add_action( 'wp_enqueue_scripts', 'wpse_load_plugin_css' );
-<<<<<<< HEAD
-=======
-
-
-
-
-
->>>>>>> bba3202a47c6ae760f2e56eb0b690201381524e9
