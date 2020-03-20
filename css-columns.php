@@ -2,12 +2,23 @@
 /*
     Plugin Name: Divi Mobile CSS Columns
     Plugin URI: http://www.kerjemtec.com
-    Description: Keep All Divi Desktop layouts on Moble Column Layout 
+    Description: Keep All Divi Desktop layouts on Moble Column Layout
     Author: Kerwin Thompson
     Author URI: http://www.kerjemtec.com
-    Version: 1.0.0
+    Version: 1.3.0
 */
+require 'path/to/plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://gitlab.com/kerjemtec/divi-mobile-css-layouts',
+	__FILE__, //Full path to the main plugin file or functions.php.
+	'divi-css-mobile-layouts'
+);
 
+//Optional: If you're using a private repository, specify the access token like this:
+$myUpdateChecker->setAuthentication('cwc87fh9017zvsbyfsxc1u0td');
+
+//Optional: Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('master');
 // it inserts the entry in the admin menu
 add_action('admin_menu', 'css_columns_create_menu_entry');
 
@@ -39,14 +50,3 @@ function wpse_load_plugin_css() {
     wp_enqueue_style( 'style', $plugin_url . 'css/style.css' );
 }
 add_action( 'wp_enqueue_scripts', 'wpse_load_plugin_css' );
-
-
-
-
-
-require 'path/to/plugin-update-checker/plugin-update-checker.php';
-$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'http://example.com/path/to/details.json',
-	__FILE__, //Full path to the main plugin file or functions.php.
-	'unique-plugin-or-theme-slug'
-);
