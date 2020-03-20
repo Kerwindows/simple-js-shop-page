@@ -5,7 +5,7 @@
     Description: Keep All Divi Desktop layouts on Moble Column Layout 
     Author: Kerwin Thompson
     Author URI: http://www.kerjemtec.com
-    Version: 1.0.0
+    Version: 1.3.0
 */
 
 // it inserts the entry in the admin menu
