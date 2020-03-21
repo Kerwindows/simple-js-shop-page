@@ -39,8 +39,9 @@ Add the class name spcified for that particular row or column, under the module 
 
 == Screenshots ==
 
-1. http://kerjemtec.com/wp-content/uploads/2020/03/custom1-min.jpg Regular Columns
-2. http://kerjemtec.com/wp-content/uploads/2020/03/custom2-min.jpg Specialty Columns
+1. Screenshot
+2. http://kerjemtec.com/wp-content/uploads/2020/03/custom1-min.jpg Regular Columns
+3. http://kerjemtec.com/wp-content/uploads/2020/03/custom2-min.jpg Specialty Columns
 
 
 == Changelog ==
