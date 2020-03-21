@@ -47,12 +47,12 @@ Add the class name spcified for that particular row or column, under the module 
 
 == Changelog ==
 
-= 1.0 =
+= 0.9 =
 * Added alternative class names
 * Updated readme file
 
 
-= 1.8 =
+= 0.8 =
 * First Release
 * Added Regular and Specialty Stylesheet
 
