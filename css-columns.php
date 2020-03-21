@@ -7,11 +7,11 @@
     Author URI: http://www.kerjemtec.com
     Version: 1.9.0
 */
-require 'plugin-update-checker/plugin-update-checker.php';
+require 'update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://gitlab.com/kerjemtec/divi-mobile-css-layouts',
+	'https://gitlab.com/kerjemtec/divi-mobile-columns',
 	__FILE__, //Full path to the main plugin file or functions.php.
-	'divi-mobile-css-layouts'
+	'divi-mobile-columns'
 );
 
 //Optional: If you're using a private repository, specify the access token like this:
