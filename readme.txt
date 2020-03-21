@@ -12,7 +12,8 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Divi Mobile Column
+Divi Mobile Column.
+
 This plugin adds a comprehensive stylesheet to your Divi project which constrains the desktop layout on the mobile view.
 Just add the related css class name to the desired module.
 
@@ -39,20 +40,21 @@ Add the class name spcified for that particular row or column, under the module 
 
 == Screenshots ==
 
-1. Screenshot
+1. Screenshots of class name template
 2. https://kerjemtec.com/wp-content/uploads/2020/03/custom1-min.jpg Regular Columns
 3. https://kerjemtec.com/wp-content/uploads/2020/03/custom2-min.jpg Specialty Columns
 
 
 == Changelog ==
 
-= 1.1 =
+= 1.0 =
+* Added alternative class names
 * Updated readme file
 
 
-= 1.0 =
+= 1.8 =
 * First Release
-* Regular and Specialty Stylesheet
+* Added Regular and Specialty Stylesheet
 
 == Upgrade Notice ==
 
