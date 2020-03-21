@@ -1,18 +1,18 @@
 === Divi CSS Mobile Columns ===
 Donate link: https://kerjemtec.com/
-Tags: comments, spam
+Tags: divi, mobile responsive, divi mobile, Divi columns
 Requires at least: 4.6
-Tested up to: 4.7
+Tested up to: 5
 Stable tag: 4.3
-Requires PHP: 5.2.4
+Requires PHP: 7.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+THis plugin adds a comprehensive stylesheet to your Divi project which constrains the desktop layout on the mobile view.
 
 For backwards compatibility, if this section is missing, the full length of the short description will be used, and
 Markdown parsed.
@@ -43,9 +43,9 @@ This section describes how to install the plugin and get it working.
 
 e.g.
 
-1. Upload the plugin files to the `/wp-content/plugins/plugin-name` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins` directory, or install the plugin through the WordPress plugins screen directly.
 1. Activate the plugin through the 'Plugins' screen in WordPress
-1. Use the Settings->Plugin Name screen to configure the plugin
+1. Use the tutorial page to CSS Columns to apply class names
 1. (Make your instructions match the desired user flow for activating and installing your plugin. Include any steps that might be needed for explanatory purposes)
 
 
@@ -65,6 +65,7 @@ Answer to foo bar dilemma.
 the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
 directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
 (or jpg, jpeg, gif).
+<img src="http://kerjemtec.com/wp-content/uploads/2020/03/specialty-chart-divirows.jpg" />
 2. This is the second screen shot
 
 == Changelog ==
