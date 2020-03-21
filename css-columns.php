@@ -1,6 +1,6 @@
 <?php
 /*
-    Plugin Name: Divi Mobile CSS Columns
+    Plugin Name: Divi Mobile Columns
     Plugin URI: http://www.kerjemtec.com
     Description: Keep All Divi Desktop layouts on Moble Column Layout
     Author: Kerwin Thompson
@@ -28,7 +28,7 @@ function css_columns_create_menu_entry() {
 	// icon image path that will appear in the menu
 	$icon = plugins_url('/images/css-plugin-icon-16.png', __FILE__);
 	// adding the main manu entry
-	add_menu_page('CSS Columns', 'Class Names', 'edit_posts', 'main-page-css-columns', 'css_columns_show_main_page', $icon);
+	add_menu_page('Mobile Class Names', 'Mobile Class Names', 'edit_posts', 'main-page-css-columns', 'css_columns_show_main_page', $icon);
 	// adding the sub menu entry
 	add_submenu_page( 'main-page-css-columns', 'Support', 'Support', 'edit_posts', 'support', 'css_columns_add_another_page' );
 }
