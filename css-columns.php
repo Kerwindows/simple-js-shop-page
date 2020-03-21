@@ -18,7 +18,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 $myUpdateChecker->setAuthentication('tZw22vFXLyPKfEvXtZaZ');
 
 //Optional: Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('master');
+$myUpdateChecker->setBranch('css');
 
 // it inserts the entry in the admin menu
 add_action('admin_menu', 'css_columns_create_menu_entry');
