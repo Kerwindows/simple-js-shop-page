@@ -38,12 +38,9 @@ Add the class name spcified for that particular row or column, under the module 
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-/assets/screenshot-1.png
-2. This is the second screen shot
+1. This is the description for the first screenshot 
+2. [https://miro.medium.com/max/3200/1*k1ZYFcVPVI9yAZ5wSHjJ2Q.png Description for the first screenshot] 
+
 
 == Changelog ==
 
