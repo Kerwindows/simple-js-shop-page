@@ -5,7 +5,7 @@
     Description: Keep All Divi Desktop layouts on Moble Column Layout
     Author: Kerwin Thompson
     Author URI: http://www.kerjemtec.com
-    Version: 1.9.0
+    Version: 1.0.0
 */
 require 'update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
@@ -18,7 +18,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 $myUpdateChecker->setAuthentication('N5waYpiy49EFG6ii3pS2');
 
 //Optional: Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('css');
+$myUpdateChecker->setBranch('master');
 
 // it inserts the entry in the admin menu
 add_action('admin_menu', 'css_columns_create_menu_entry');
