@@ -5,7 +5,7 @@
     Description: Keep All Divi Desktop layouts on Moble Column Layout
     Author: Kerwin Thompson
     Author URI: http://www.kerjemtec.com
-    Version: 0.8.1
+    Version: 0.9.1
 */
 require 'plugin-update/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
