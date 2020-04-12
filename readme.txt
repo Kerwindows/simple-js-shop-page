@@ -47,6 +47,12 @@ Add the class name spcified for that particular row or column, under the module 
 
 == Changelog ==
 
+= 0.9.3 =
+* Updated Stylesheet Code
+
+= 0.9.2 =
+* Updated Stylesheet Code
+
 = 0.9.1 =
 * Updated Stylesheet Code
 
