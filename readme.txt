@@ -47,6 +47,9 @@ Add the class name spcified for that particular row or column, under the module 
 
 == Changelog ==
 
+= 0.9.4 =
+* Modified 1_4-3-4 row for 1_5-4_5 and 1_6-5_6
+
 = 0.9.2 =
 * Updated Stylesheet Code
 
