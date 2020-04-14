@@ -261,6 +261,39 @@
 		width:75% !important ;
 	}
 }
+/***************Modification for 1_4-3-4 row**************/
+@media only screen and (max-width: 980px){
+	.mobile-1_5-4_5-column  .et_pb_column_1_4, .mobile-1_5-4_5-column   .et_pb_column_1_4 {
+		width:20% !important;
+	}
+	.mobile-1_5-4_5-column  .et_pb_column_3_4, .mobile-1_5-4_5-column   .et_pb_column_3_4 {
+		width:80% !important ;
+	}
+}
+@media only screen and (max-width: 479px){
+	.phone-1_5-4_5-column  .et_pb_column_1_4, .phone-1_5-4_5-column  .et_pb_column_1_4 {
+		width:20% !important;
+	}
+	.phone-1_5-4_5-column  .et_pb_column_3_4, .phone-1_5-4_5-column  .et_pb_column_3_4 {
+		width:80% !important ;
+	}
+}
+@media only screen and (max-width: 980px){
+	.mobile-1_6-5_6-column  .et_pb_column_1_4, .mobile-1_6-5_6-column   .et_pb_column_1_4 {
+		width:16.66% !important;
+	}
+	.mobile-1_6-5_6-column  .et_pb_column_3_4, .mobile-1_6-5_6-column   .et_pb_column_3_4 {
+		width:83.34% !important ;
+	}
+}
+@media only screen and (max-width: 479px){
+	.phone-1_6-5_6-column  .et_pb_column_1_4, .phone-1_6-5_6-column  .et_pb_column_1_4 {
+		width:16.66% !important;
+	}
+	.phone-1_6-5_6-column  .et_pb_column_3_4, .phone-1_6-5_6-column  .et_pb_column_3_4 {
+		width:83.34% !important ;
+	}
+}
 @media only screen and (max-width: 980px){
 	.mobile-1_4-1_2-1_4-column  .et_pb_column_1_4 {
 		width:25% !important;
