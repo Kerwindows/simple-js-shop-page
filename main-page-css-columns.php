@@ -50,6 +50,10 @@
                <li><code>mobile-1_3-2_3-column</code></li>
                <li><code>mobile-2_3-1_3-column</code></li>
                <li><code>mobile-1_4-3_4-column</code></li>
+               <ul>
+                  <li><code>mobile-1_5-4_5-column</code></li>
+                  <li><code>mobile-1_6-5_6-column</code></li>
+               </ul>
                <li><code>mobile-3_4-1_4-column</code></li>
             </ol>
             </p>
