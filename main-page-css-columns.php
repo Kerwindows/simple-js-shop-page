@@ -69,9 +69,12 @@
                <li><code>mobile-3_5-1_5-1_5-column</code></li>
                <li><code>mobile-1_6-1-6-1_6-1_2-column</code></li>
                <ul>
-                  <li><code>mobile-1_6-1_6-1_2-to-3-column</code></li>
+                  <li><code>mobile-1_6-1_6-1_6-1_2-to-3-column</code></li>
                </ul>
                <li><code>mobile-1_2-1_6-1_6-1_6-column</code></li>
+               <ul>
+                  <li><code>mobile-1_2-1_6-1_6-1_6-to-3-column</code></li>
+               </ul>
             </ol>Use phone- instead of mobile- to affect phones only
             </p>
          </div>
