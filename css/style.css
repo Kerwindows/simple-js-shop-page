@@ -376,25 +376,40 @@
 }
 /******New***/
 
-/**mobile-1_6-1_6-1_2-to-3-column does not apply to tablets**/
+/**mobile-1_6-1_6-1_6-1_2-to-3-column does not apply to tablets**/
 
 @media only screen and (max-width: 479px){
-	.mobile-1_6-1_6-1_2-to-3-column  .et_pb_column_1_6 {
+	.mobile-1_6-1_6-1_6-1_2-to-3-column  .et_pb_column_1_6 {
 		width:33.33% !important;
 	}
-	.mobile-1_6-1_6-1_2-to-3-column  .et_pb_column_1_2  {
+	.mobile-1_6-1_6-1_6-1_2-to-3-column  .et_pb_column_1_2  {
 		width:100% !important;
 	}
 }
 @media only screen and (max-width: 479px){
-	.phone-1_6-1_6-1_2-to-3-column  .et_pb_column_1_6 {
+	.phone-1_6-1_6-1_6-1_2-to-3-column  .et_pb_column_1_6 {
 		width:33.33% !important;
 	}
-	.phone-1_6-1_6-1_2-to-3-column  .et_pb_column_1_2  {
+	.phone-1_6-1_6-1_6-1_2-to-3-column  .et_pb_column_1_2  {
 		width:100% !important;
 	}
 }
-
+@media only screen and (max-width: 479px){
+	.mobile-1_2-1_6-1_6-1_6-to-3-column  .et_pb_column_1_6 {
+		width:33.33% !important;
+	}
+	.mobile-1_2-1_6-1_6-1_6-to-3-column  .et_pb_column_1_2  {
+		width:100% !important;
+	}
+}
+@media only screen and (max-width: 479px){
+	.phone-1_2-1_6-1_6-1_6-to-3-column  .et_pb_column_1_6 {
+		width:33.33% !important;
+	}
+	.phone-1_2-1_6-1_6-1_6-to-3-column  .et_pb_column_1_2  {
+		width:100% !important;
+	}
+}
 /**mobile-1_4-1_4-1_2-to-2-column does not apply to tablets**/
 
 @media only screen and (max-width: 479px){
