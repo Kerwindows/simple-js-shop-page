@@ -47,7 +47,7 @@ Add the class name spcified for that particular row or column, under the module 
 
 == Changelog ==
 
-=0.9.6 =
+= 0.9.6 =
 * Added CSS code to instructional page
 * Added support details to instructional page
 * Bug fix
