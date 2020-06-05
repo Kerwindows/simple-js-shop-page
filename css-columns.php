@@ -39,9 +39,9 @@ function css_columns_show_main_page() {
 }
 
 // function triggered in add_submenu_page
-function css_columns_add_another_page() {
-	include('thankyou.php');
-}
+//function css_columns_add_another_page() {
+//	include('thankyou.php');
+//}
 
 
 //add script to add css
