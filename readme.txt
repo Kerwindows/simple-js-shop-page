@@ -49,7 +49,8 @@ Add the class name spcified for that particular row or column, under the module 
 
 =0.9.6 =
 * Added CSS code to instructional page
-* Removed support page
+* Added support details to instructional page
+* Bug fix
 
 = 0.9.5 =
 * Modified class name 1_6-1_6-1_2-to-3- 
