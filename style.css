@@ -29,8 +29,8 @@ float: left;
 /* Create 1/3rd and 2/3rd columns that floats next to each other */
 .column_k_33_col{
 float: left;
-  width: 33.33%;
-  padding: 10px;
+ width: 33.33%;
+ padding: 10px;
  
 }
 .column_k_66_col{
@@ -39,7 +39,11 @@ float: left;
   padding: 10px;
  
 }
-
+/**/
+.row_k{
+padding:20px;
+margin-bottom:20px;
+}
 /* Clear floats after the columns */
 .row_k:after {
   content: "";
