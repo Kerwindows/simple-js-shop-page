@@ -5,7 +5,7 @@
     Description: Keep All Divi Desktop layouts on Moble View
     Author: Kerwin Thompson
     Author URI: http://www.kerjemtec.com
-    Version: 0.9.9
+    Version: 0.9.6
 */
 require 'plugin-update/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
@@ -15,7 +15,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 );
 
 //Optional: If you're using a private repository, specify the access token like this:
-$myUpdateChecker->setAuthentication('N5waYpiy49EFG6ii3pS2');
+$myUpdateChecker->setAuthentication('vjqhtoeCjpwq5aXaKzqD');
 
 //Optional: Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('master');
