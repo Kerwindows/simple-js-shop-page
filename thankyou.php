@@ -15,7 +15,7 @@
 	  </div>
 	  <div class="column_k">
 	    <h2>Updates</h2>
-	    <p>For updates...</p>
+	    <p>Automatic</p>
 	  </div>
 	  <div class="column_k" >
 	    <h2>Issues?</h2>
