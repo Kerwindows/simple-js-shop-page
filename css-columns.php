@@ -1,6 +1,6 @@
 <?php
 /*
-    Plugin Name: Divi Mobile Column Classes
+    Plugin Name: Divi Mobile Columns
     Plugin URI: http://www.kerjemtec.com
     Description: Keep All Divi Desktop layouts on Moble View
     Author: Kerwin Thompson
