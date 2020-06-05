@@ -118,7 +118,7 @@
 </div>
 <div id="pluginwrap_k">
     <div class="row_k">
-        <div><a id="css-btn1">Show</a><a id="css-btn2">Hide</a> CSS Custom Code<br/><br/>
+        <div><a id="css-btn1">Show</a><a id="css-btn2">Hide</a> Custom CSS Code<br/><br/>
             <code id="css-code">
 	      /*Special columns*/
 @media only screen and (max-width: 980px){
