@@ -5,7 +5,7 @@
     Description: Keep All Divi Desktop layouts on Moble View
     Author: Kerwin Thompson
     Author URI: http://www.kerjemtec.com
-    Version: 0.9.7
+    Version: 0.9.8
 */
 require 'plugin-update/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
