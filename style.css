@@ -57,6 +57,10 @@ margin-bottom:20px;
     width: 100%;
   }
 } 
-  .divi_mobile-css-column {
+.divi_mobile-css-column {
     width: 100%;
-  }
+}
+  
+#css-btn1,#css-btn2{
+cursor:pointer;
+}
