@@ -30,7 +30,7 @@ function css_columns_create_menu_entry() {
 	// adding the main manu entry
 	add_menu_page('Class Names', 'Class Names', 'edit_posts', 'main-page-css-columns', 'css_columns_show_main_page', $icon);
 	// adding the sub menu entry
-	add_submenu_page( 'main-page-css-columns', 'Support', 'Support', 'edit_posts', 'support', 'css_columns_add_another_page' );
+	//add_submenu_page( 'main-page-css-columns', 'Support', 'Support', 'edit_posts', 'support', 'css_columns_add_another_page' );
 }
 
 // function triggered in add_menu_page
