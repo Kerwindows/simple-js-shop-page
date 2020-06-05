@@ -9,7 +9,7 @@
 */
 require 'plugin-update/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://gitlab.com/kerjemtec/divi-mobile-columns',
+	'https://gitlab.com/kerjemtec/divi-mobile-columns/',
 	__FILE__, //Full path to the main plugin file or functions.php.
 	'divi-mobile-columns'
 );
